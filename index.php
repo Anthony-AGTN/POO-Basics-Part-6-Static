@@ -1,5 +1,15 @@
 <?php
 
+require_once('Speedometer.php');
+
+var_dump(Speedometer::convertKmToMiles(10));
+var_dump(Speedometer::convertMilesToKm(10));
+
+echo(Speedometer::convertKmToMiles(10));
+echo '<br>' . '<br>';
+echo(Speedometer::convertMilesToKm(10));
+echo '<br>' . '<br>';
+
 require_once('Bicycle.php');
 
 $bicycle = new Bicycle('blue', 1);
